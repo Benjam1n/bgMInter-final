@@ -7,7 +7,6 @@ import TokenFunction from "../Components/TokenFunction";
 import { Link } from "react-router-dom";
 import { connect } from "../Components/Navbar.js";
 import {options} from "../Components/TokenFunction";
-import { abiCoder } from "ethers/lib/utils";
 import { generateToken } from "./generateToken";
 import { Net } from "web3";
 
