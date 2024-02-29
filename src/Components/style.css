@@ -1,0 +1,35 @@
+.group {
+    position: relative;
+}
+
+.description {
+    z-index:50;
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px); 
+    left: 0;
+    width: 100%;
+}
+
+.group:hover .description {
+    display: block;
+}
+
+.description2 {
+    z-index:50;
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px); /* Adjust the gap as needed */
+    left: 0;
+    width: 20rem;
+}
+
+.group:hover .description2 {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .description2 {
+        width: 100%;
+    }
+}

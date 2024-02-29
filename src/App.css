@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Use the font in your CSS classes */
+.font-font-1 {
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.font-font-2{
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Apply styles to App class */
+.App {
+  text-align: center;
+}
